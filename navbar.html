@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <title>Navigation Bar</title>
+</head>
+<style>
+    nav {
+        width: 100%;
+        height: 12vh;
+        background: blue;
+        color: whitesmoke;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+
+    }
+
+    nav .menu {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav .menu a {
+        width: 10%;
+        text-decoration: none;
+        font-weight: bold;
+        color: whitesmoke;
+        padding: 12px 10px;
+        border-radius: 4px;
+        outline: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 1px;
+        /* transition: all .5s ease; */
+        /* padding: 12px 30px; */
+    }
+
+    .button {
+        background-color: cornflowerblue;
+    }
+
+    nav div img {
+        width: 80px;
+        height: 90px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul class="w3-ul">
+                    <li class="w3-xxxlarge"><i class="glyphicon glyphicon-home"></i></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Project</a>
+                <a href="#">Videos</a>
+                <a href="#">Contact</a>
+                <a href="#" class="button">Login</a>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>
